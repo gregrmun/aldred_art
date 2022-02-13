@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "antd": "^4.17.1",
+    "css-loader": "^6.5.1",
+    "react-image-gallery": "^1.2.7",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.1",
+    "react-social-icons": "^5.10.0",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^3.3.1"
+  }
+}

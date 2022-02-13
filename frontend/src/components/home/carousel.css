@@ -1,0 +1,138 @@
+.testimonial__card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 40px 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: 1px solid rgba(8,72,114,.05);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px 0 #050505;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.testimonial__text {
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.testimonial__carousel-wrapper {
+    width: calc(100vw + 0px);
+    padding-top: 0px;
+    overflow:hidden;
+}
+
+@media (max-width: 1441px) {
+    .testimonial__carousel-wrapper {
+    width: calc(100vw + 100px);
+    }
+}
+
+@media (max-width: 991px) {
+    .testimonial__carousel-wrapper {
+    width: calc(100vw + 330px);
+    }
+    .owl-stage-outer {
+        padding-left: 30px; 
+    }
+    
+    .owl-nav {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 467px) {
+    .testimonial__carousel-wrapper {
+    width: 110vw;
+    }
+    .owl-stage-outer {
+        padding-left: 10vw; 
+    }
+}
+
+.carousel-wrap{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 50px;
+}
+
+.owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; 
+}
+
+.owl-stage-outer {
+    width: 100vw;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.owl-prev,
+.owl-next {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin: 0 12px;
+    border-radius: 50%;
+    box-shadow: 0px 3.78px 28.36px rgba(10, 32, 47, 0.05);
+    background-size: auto 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all ease .2s;
+}
+
+.owl-prev {
+    background-image: url('../../assets/home/LeftArrow.png');
+    background-size: contain;
+}
+
+.owl-next {
+    background-image: url('../../assets/home/RightArrow.png');
+    background-size: contain;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: rgb(185, 67, 67)ff;
+}
+
+.owl-next:focus, .owl-prev:focus {
+    outline: none;
+}

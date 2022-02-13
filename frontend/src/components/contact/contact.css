@@ -1,0 +1,70 @@
+.subHeaderText {
+    font-family: Jost;
+}
+
+.headerContainer {
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #057271;
+}
+
+.contactBox {
+    flex-direction: row;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 80vh;
+    max-width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+
+.contactText {
+    font-family: Jost;
+    width: 400px;
+    font-size: 14pt;
+    font-weight: 200;
+    color: #606060;
+}
+
+.contactBold {
+    font-family: Jost;
+    font-weight: 600;
+    font-size: 14pt;
+    color: #444444;
+}
+
+.formBg {
+    background-color: #057270e8;
+    max-height: 100vh;
+    max-width: 100vw;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.formBox {
+    padding-left: 15%;
+    padding-right: 10%;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex: 1;
+}
+
+.formFont {
+    font-size: 18pt;
+}
+
+.formImg {
+    height: 700px;
+    
+}

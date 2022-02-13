@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e2dec6" />
+    <title>Aldred Art</title>
+    {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static "css/index.css" %}" >
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/dist/image-gallery.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <div id="app"></div>
+    </div>
+
+    <script src="{% static "frontend/main.js" %}"></script>
+  </body>
+
+  <footer>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+  </footer>
+</html>
